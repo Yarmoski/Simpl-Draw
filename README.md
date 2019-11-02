@@ -1,5 +1,5 @@
 # Simpl-Draw
-An art creation tool made in C++.
+An art creation tool made in C++. I made this program for a computer science class at UCLA.
 
 ## Design Descrition
 
