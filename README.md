@@ -8,7 +8,7 @@ The main function begins by setting the size of the grid to (20, 30), the charac
 The performCommands function returns an integer which is used in the switch statement which can do one of three things: draw the grid after a successful command string, alert the user of a syntax error in the command string, or alert the user of a non-syntax error in the command string (e.g. attempting to plot a point not within the grid.)
 
 
-plotLine function:
+### plotLine function:
 
 check if function inputs are valid, if not return false
 check if points will be plotted out of bounds, if so, return false
@@ -21,7 +21,7 @@ if distance greater than 0:
 		- loop “distance” amount of times, setting each character in specified direction (horiz/vert) to the user’s choice of char
 			- check whether FG (replace all characters) mode or BG (replace only space characters mode)
 
-performCommands function:
+### performCommands function:
 
 If syntax error is detected, function returns and stores the position of the syntax error in the badPos variable
 If no syntax error is detected but a performance error is detected (non-syntax error), the function returns the error at the end since syntax errors take priority
