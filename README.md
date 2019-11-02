@@ -22,6 +22,7 @@ if distance greater than 0:
 			- check whether FG (replace all characters) mode or BG (replace only space characters mode)
 
 performCommands function:
+
 If syntax error is detected, function returns and stores the position of the syntax error in the badPos variable
 If no syntax error is detected but a performance error is detected (non-syntax error), the function returns the error at the end since syntax errors take priority
 
