@@ -1,5 +1,29 @@
 # Simpl-Draw
-An art creation tool made in C++. I made this program for a computer science class at UCLA.
+An art creation tool made in C++.
+
+## Quickstart
+Run the .exe file! Use the Command List below to draw! Chain commands in the same line (no spaces) to create complex drawings.
+
+## CommandList
+
+### Horizontal Line command (H) (- for left, + for right)
+This command consists of an upper or lower case H immediately followed by a one to two digit number (positive or negative to indicate direction).
+
+If the current mode is foreground mode, the character in the grid at every position in the line is replaced by the current character. If the current mode is background mode, only the space characters in the grid that are at positions in the line are replaced by the current character. After this plotting command is performed, the current position is the position of the other endpoint of the line.
+
+### Vertical Line command (V) (- for up, + for down)
+This command consists of an upper or lower case V immediately followed by a one to two digit number (positive or negative to indicate direction).
+
+If the current mode is foreground mode, the character in the grid at every position in the line is replaced by the current character. If the current mode is background mode, only the space characters in the grid that are at positions in the line are replaced by the current character. After this plotting command is performed, the current position is the position of the other endpoint of the line.
+
+### Foreground command (F)
+This command sets the mode to foreground mode and the current character to the character that follows the upper or lower case F.
+
+### Background command (B)
+This command sets the mode to background mode and the current character to the character that follows the upper or lower case B.
+
+### Clear command (C)
+This command sets every character of the grid to be a space character and sets the current position to (1, 1), the current character to \*, and the current mode to foreground mode.
 
 ## Design Descrition
 
