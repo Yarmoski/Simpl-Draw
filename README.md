@@ -66,3 +66,5 @@ read each character in input string, after every command advance iteration to af
 		- add distance to row/column variables
 - return normally if successfully traversed string without errors
 
+#### Thank you
+Thank you to Dr. Smallberg at UCLA for starting help!
