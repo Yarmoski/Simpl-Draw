@@ -1,5 +1,5 @@
 # Simpl-Draw
-An art creation tool made in C++.
+An art creation tool made in C++. Capable of simple drawings and pixel art.
 
 ## Quickstart
 Run the .exe file! Use the Command List below to draw! Chain commands in the same line (no spaces) to create complex drawings.
